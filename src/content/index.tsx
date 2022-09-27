@@ -33,11 +33,8 @@ const StyledTabs = styled((props: StyledTabsProps) => (
 
 const StyledTab = styled((props: StyledTabProps) => (
   <Tab disableRipple {...props} />
-))(({ theme }) => ({
+))({
   textTransform: 'none',
-  // fontWeight: theme.typography.fontWeightRegular,
-  // fontSize: theme.typography.pxToRem(15),
-  // marginRight: theme.spacing(1),
   color: 'red',
   '&.Mui-selected': {
     color: 'brown !important',
@@ -46,7 +43,7 @@ const StyledTab = styled((props: StyledTabProps) => (
   '&.Mui-focusVisible': {
     backgroundColor: 'rgba(100, 95, 228, 0.32)',
   },
-}));
+});
 
 const Content = () => {
   const [currentCategory, setCurrentCategory] = useState<string>("Main Menu");
