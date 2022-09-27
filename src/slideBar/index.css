@@ -41,3 +41,16 @@
     margin: 0;
     background: #adceed;
   }
+
+  .awssld__bullets {
+    bottom: -25px !important;
+  }
+
+  .awssld__bullets button {
+    height: 8px !important;
+    width: 8px !important;
+  }
+
+  .awssld__bullets .awssld__bullets--active {
+    background-color: brown !important;
+  }
