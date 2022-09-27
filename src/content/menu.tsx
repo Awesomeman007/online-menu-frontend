@@ -60,9 +60,6 @@ const Menu: React.FC<MenuInterface> = ({imageUrl, name, description, price}) => 
             <ImageContainer>
                 <StyledImage src={imageUrl} />
             </ImageContainer>
-            {/* <ImageContainer>
-                <StyledImage src={imageUrl} />
-            </ImageContainer> */}
             <DetailContainer>
                 <StyledTitle>{name}</StyledTitle>
                 <StyledDesc>{description}</StyledDesc>
